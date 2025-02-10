@@ -19,3 +19,10 @@ We define:
 - Fake data is encouraged to undergo **dimension-collapse** such that the SmoothRank of the generated batch is indicative of real images.
 
 ---
+```
+@misc{algomancer2025,
+  author = {@algomancer},
+  title  = {Some Dumb Shit},
+  year   = {2025}
+}
+```
