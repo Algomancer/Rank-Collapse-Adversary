@@ -57,8 +57,6 @@ transform = transforms.Compose([
 mnist_train = datasets.MNIST(root="./data", train=True, download=True, transform=transform)
 train_loader = DataLoader(mnist_train, batch_size=batch_size, shuffle=True, drop_last=True)
 
-# We won't use a separate test set for brevity.
-
 
 # =====================
 # 3) Generator
